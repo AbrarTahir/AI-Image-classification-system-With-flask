@@ -1,5 +1,5 @@
 🧠 AI Image Classification Web App
-A simple web app for image classification using VGG19, built with HTML, CSS, JavaScript, and Flask. Predictions are powered by a pre-trained deep learning model, and results are stored using SQLAlchemy.
+A web-based image classifier using VGG19, built with HTML, CSS, JavaScript, and Flask. Supports user authentication via SQLAlchemy.
 
 ⚙️ Tech Stack
 Frontend: HTML, CSS, JavaScript
@@ -8,11 +8,11 @@ Backend: Flask (Python), SQLAlchemy
 
 Model: Pre-trained VGG19 (Keras/TensorFlow)
 
-Database: SQLite
+Auth & DB: SQLAlchemy (User login)
 
 🚀 Features
-Upload images via a web UI
+User registration & login
 
-Get top predictions with confidence scores
+Upload images via web interface
 
-Store image history in a database
+Get top AI predictions with confidence scores
